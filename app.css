@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #131921;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+.border {
+    border: 0.75px solid transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.border:hover {
+    border: 0.75px solid white;
+    border-radius: 5px;
+}
+
+.amazon-logo img {
+    height: 30px;
+}
+
+.delivery {
+    color: white;
+}
+
+.delivery-to {
+    font-size: 0.8rem;
+    color: #ccc;
+    padding-left: 16px;
+}
+
+.search {
+    display: flex;
+    border: 2px solid transparent;
+}
+
+.select-items {
+    border: none;
+    padding: 10px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.search:hover {
+    border: 2px solid #f8941c;
+    border-radius: 8px;
+}
+
+.search-bar {
+    border: 0px solid;
+    padding: 10px 250px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-icon {
+    color: #131921;
+    background-color: #f8941c;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.name-greet, .returns {
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.account-info, .orders {
+    font-weight: 500;
+    color: white;
+}
+
+.shopping-cart {
+    color: white;
+}
+
+.shopping-cart i {
+    font-size: 1.6rem;
+}
+
+.shopping-cart span {
+    font-weight: 500;
+}
+
+.panel {
+    color: white;
+    background-color: #232f3e;
+    height: 40px;
+    padding-top: 70px;
+}
+.panel ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel li {
+    font-size: 0.8rem;
+    padding-top: 8px;
+}
+
+.pointer:hover, .list-content p:hover, .panel li:hover, .content span:hover {
+    cursor: pointer;
+}
+
+.all-menu {
+    display: flex;
+    align-items: center;
+}
+
+.all-menu p {
+    padding-left: 5px;
+}
+
+.hero-section {
+    background-image: url(PC_HERO_LDT_EN_2X._CB584435884_.jpg);
+    height: 270px;
+    background-size: cover;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #f0f0f0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    height: 350px;
+    width: 21.5%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+}
+
+.box:hover {
+    box-shadow: 2px 2px 5px rgb(0, 64, 102, 10%);
+}
+
+.box-image {
+    height: 80%;
+    background-size: cover;
+}
+
+.box h2 {
+    color: #131921;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.box p {
+    font-size: 0.8rem;
+    padding-top: 5px;
+    color: #71afba;
+}
+
+.box p:hover {
+    color: #f8941c;
+    cursor: pointer;
+}
+
+.back-to-top {
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-to-top:hover {
+    background-color: #37475ae1;
+}
+
+.back-to-top p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.services {
+    height: 300px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: top;
+    padding-top: 70px;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.list-heading {
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.list-content {
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+.list-content p {
+    margin-bottom: 5px;
+}
+
+.footer-logo {
+    background-color: #232f3e;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 20px;
+    margin-right: 40px;
+}
+
+.language-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language-option i {
+    color: white;
+    margin-right: 10px;
+}
+
+.language-option select {
+    background-color: #232f3e;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+.language-option select:hover {
+    border: 1px solid white;
+}
+
+.copyright-section {
+    height: 120px;
+    background-color: #131921;
+    color: #ccc;
+    padding-top: 50px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #ccc;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.content span {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tag-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
