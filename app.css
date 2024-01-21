@@ -81,6 +81,7 @@
 }
 
 .account-info, .orders {
+    font-size: 1rem;
     font-weight: 500;
     color: white;
 }
@@ -287,4 +288,100 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1350px) {
+    .amazon-logo img {
+        height: 25px;
+    }
+    .box {
+        width: 28%;
+    }
+    .search-bar {
+        padding: 10px 100px;
+    }
+    .name-greet, .returns, .delivery-to {
+        font-size: 0.7rem
+    }
+    .account-info, .orders, .location {
+        font-size: 0.85rem;
+    }
+    .panel ul li {
+        font-size: 0.6rem;
+    }
+    .hero-section {
+        height: 250px;
+    }
+    .services {
+        height: 300px;
+    }
+}
+
+@media (max-width: 950px) {
+    .amazon-logo img {
+        height: 25px;
+    }
+    .box {
+        width: 40%;
+    }
+    .search-bar {
+        padding: 10px 60px;
+    }
+    .select-items {
+        padding: 10px 10px;
+    }
+    .search-icon {
+        padding: 10px 20px;
+    }
+    .name-greet, .returns {
+        font-size: 0.5rem
+    }
+    .account-info, .orders {
+        font-size: 0.7rem;
+    }
+    .delivery {
+        display: none;
+    }
+    .panel ul li {
+        font-size: 0.5rem;
+    }
+    .hero-section {
+        height: 180px;
+    }
+    .services {
+        height: 350px;
+    }
+}
+
+@media (max-width: 650px) {
+    .amazon-logo img {
+        height: 25px;
+    }
+    .box {
+        width: 70%;
+    }
+    .search-bar {
+        padding: 10px 30px;
+    }
+    .select-items {
+        padding: 10px 5px;
+    }
+    .search-icon {
+        padding: 10px 10px;
+    }
+    .delivery, .greetings, .return-and-orders {
+        display: none;
+    }
+    .panel ul li:not(.all-menu) {
+        display: none;
+    }
+    .all-menu p{
+        font-size: 0.8rem;
+    }
+    .hero-section {
+        height: 130px;
+    }
+    .services {
+        height: 400px;
+    }
 }
